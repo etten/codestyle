@@ -136,6 +136,9 @@
 	</rule>
 	<rule ref="Squiz.Strings.EchoedStrings"/>
 	<rule ref="Squiz.WhiteSpace.CastSpacing"/>
+	<rule ref="Squiz.WhiteSpace.ControlStructureSpacing">
+		<exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose"/><!-- allow spacing at the end of structure -->
+	</rule>
 	<rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace"/>
 	<rule ref="Squiz.WhiteSpace.FunctionSpacing">
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.After"/><!-- does not allow PHPUnit ignore comments -->
