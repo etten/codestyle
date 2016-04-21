@@ -45,6 +45,9 @@
 		<exclude name="Squiz.ControlStructures.LowercaseDeclaration"/><!-- checked by more generic Generic.PHP.LowerCaseKeyword -->
 		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration.ContentAfterBrace"/><!-- we want to allow comments -->
 		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace"/><!-- clashes with OpeningFunctionBraceBsdAllman -->
+		<exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/><!-- we want to allow empty line in control structure f.e. in catch blocks, where it can improve readability -->
+		<exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpenBrace"/><!-- we want to put first expression of multiline condition on next line -->
+		<exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose"/><!-- we want to allow empty line in control structure f.e. in try blocks, where it can improve readability -->
 
 		<!-- we use uppercase constant including TRUE, FALSE, NULL - TEMPORARY  -->
 		<exclude name="Generic.PHP.LowerCaseConstant"/>
