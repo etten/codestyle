@@ -66,10 +66,7 @@
 		<exclude name="Squiz.Arrays.ArrayDeclaration.NoKeySpecified"/>
 		<exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified"/>
 	</rule>
-	<rule ref="Squiz.Classes.ClassFileName">
-		<!-- allow multiple exceptions in one file - TEMPORARY  -->
-		<exclude name="Squiz.Classes.ClassFileName.NoMatch"/>
-	</rule>
+	<rule ref="Squiz.Classes.ClassFileName"/>
 	<rule ref="Squiz.Classes.SelfMemberReference"/>
 	<rule ref="Squiz.Commenting.DocCommentAlignment">
 		<exclude name="Squiz.Commenting.DocCommentAlignment.SpaceAfterStar"/><!-- space needed for indented annotations -->
@@ -172,14 +169,4 @@
 
 	<!-- we removed it above so turn it on again - TEMPORARY -->
 	<rule ref="Generic.PHP.UpperCaseConstant"/>
-
-	<!-- we allow this for exceptions - TEMPORARY -->
-	<rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
-		<severity>0</severity>
-	</rule>
-
-	<!-- allow side effects (bootstrap.php) - TEMPORARY -->
-	<rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
-		<severenity>0</severenity>
-	</rule>
 </ruleset>
