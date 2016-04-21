@@ -64,10 +64,6 @@
 		<exclude name="Squiz.Arrays.ArrayDeclaration.NoCommaAfterLast"/><!-- expects multi-value array always written on multiple lines -->
 		<exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/><!-- multiple values can be written on a single line -->
 		<exclude name="Squiz.Arrays.ArrayDeclaration.ValueNotAligned"/><!-- we don't want spacing with alignment -->
-
-		<!-- allow arrays without indexes also when the first is set (Nette\Database $criteria) - TEMPORARY -->
-		<exclude name="Squiz.Arrays.ArrayDeclaration.NoKeySpecified"/>
-		<exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified"/>
 	</rule>
 	<rule ref="Squiz.Classes.ClassFileName"/>
 	<rule ref="Squiz.Classes.SelfMemberReference"/>

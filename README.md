@@ -4,7 +4,6 @@
 
 * Based on [Consistence](https://github.com/consistence/coding-standard/tree/master/Consistence), so read it carefully.
 * But it differs in some cases:
-	* Arrays: Arrays without key are allowed also when the first key is specified (Nette\Database $criteria).
 	* Comments: Inline comments are allowed (code conditions, code folding).
 	* Comments: Type parameters are not checked (allow shortcuts like int, bool).
 	* Constants: Uppercase constants including TRUE, FALSE, NULL (Nette Code Style).
