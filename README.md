@@ -1,29 +1,7 @@
-# Etten\Codestyle
+# Project moved
 
-## Coding Standards for PHP CodeSniffer
+The project has been moved to [GitLab](https://gitlab.com/etten/codestyle).
 
-* Based on [Consistence](https://github.com/consistence/coding-standard/tree/master/Consistence), so read it carefully.
-* But it differs in some cases:
-	* Comments: Inline comments are allowed (code conditions, code folding).
-	* Comments: Type parameters are not checked (allow shortcuts like int, bool).
-	* Constants: Uppercase constants including TRUE, FALSE, NULL (Nette Code Style).
-	* Formatting: There is not space after type cast.
-	* Formatting: Heredoc syntax is allowed (eg. in tests).
-	* Functions: Opening brace of function with multiline arguments must be on the same line as closing parenthesis.
-	* Strings: Double quotes are permitted when contains a variable.
-	* Whitespace: There is no space after type cast.
-	* and some other differences.
+If you load this project via [Composer](https://getcomposer.org) and do not explicitly specify a repository URL, you are untouched.
 
-## Example Usage
-
-Install into your project the best via [Composer](https://getcomposer.org):
-
-	$ composer require etten/codestyle
-
-Run [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) like this:
-
-	$ vendor/bin/phpcs --standard=/path/to/Etten/ruleset.xml -sp src tests
-
-## Versioning
-
-This packages uses [semver.org](semver.org).
+    composer require etten/codestyle:^2.0
